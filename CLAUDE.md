@@ -1,4 +1,4 @@
-# FizzBuzz App — Claude Code Guide
+# Code Review Anxiety Workbook — Claude Code Guide
 
 ## Worktree-first development
 
