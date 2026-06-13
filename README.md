@@ -1,14 +1,15 @@
-# FizzBuzz App
+# Code Review Anxiety Workbook
 
-A Rails app that runs a real-time FizzBuzz countdown in your browser.
+A CBT (Cognitive Behavioral Therapy) wizard that helps software engineers work through anxiety around code review.
 
 ## What it does
 
-Enter a starting number and the app counts down to 1, streaming each result
-live. Numbers divisible by 3 become Fizz, by 5 become Buzz, by both become
-FizzBuzz — everything else shows the number itself.
+Walk through a guided workbook that helps you:
+- Identify and rate distress around a specific code review situation
+- Recognize cognitive distortions (thinking traps) present in your thoughts
+- Reframe those thoughts using CBT techniques
 
-Visit `/fizz_buzz/start` after starting the server.
+Visit `/` after starting the server to begin a workbook session.
 
 ## Prerequisites
 
@@ -28,7 +29,14 @@ bin/dev          # starts the dev server
 bin/rails test   # runs the test suite
 ```
 
+## Deployment
+
+Deployed via [Kamal](https://kamal-deploy.org/) to `code-review-anxiety-workbook.cpb.ca`.
+
+```sh
+bin/kamal deploy
+```
+
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the development workflow, worktree
-setup, and slash commands used to work on this project.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the development workflow, worktree setup, and slash commands used to work on this project.
